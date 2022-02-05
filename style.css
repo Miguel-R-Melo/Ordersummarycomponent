@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+@media screen and (max-width:  550px){
+
+	body{
+	    background-color: #D6E1FF;
+    }
+
+	#container{
+		width: 18.5em;
+		height: 29.5em;
+		margin: 10% auto;
+		background-color: white;
+		border-radius: 20px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	#imgcont{
+		width: 18.5em;
+		border-radius: 20px 20px 0px 0px;
+	}
+
+	#h2{
+		text-align: center;
+	}
+
+	#div_txt{
+		width: 14.375em;
+		margin: 0 auto;
+	}
+
+	#txt{
+		text-indent: 10px;
+	}
+
+	#icomus{
+		width: 2.8125em;
+		height: 2.8125em;
+	}
+
+	#divpre{
+		display: flex;
+		width: 13.75em;
+		height: 3.75em;
+		margin: 0px auto 10px auto;
+	}
+
+	#div_ico{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #F8F9FE;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+
+	#div_pre{
+		display: flex;
+		width: 17.5em;
+		justify-content: center;
+		align-items: center;
+		background-color: #F8F9FE;
+	}
+	
+	#div_change{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #F8F9FE;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+
+	#cancel{
+		color: blue;
+	}
+
+	#div_but{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#butpay{
+		width: 15.625em;
+		color: white;
+		border-radius: 10px;
+		background-color: #382AE1;
+		font-weight: bold;
+		border: none;
+		box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.109);
+	}
+
+	#butpay:hover{
+		cursor: pointer;
+	}
+
+	#div_cancel{
+		display: flex;
+		justify-content: center;
+	}
+
+	#butcancel{
+		border: none;
+		background-color: transparent;
+	}
+
+	#butcancel:hover{
+		cursor: pointer;
+	}
+}
+
+@media screen and (min-width: 551px){
+	body{
+		margin: 0;
+		background-color: #E0E8FF;
+	}
+	
+	#container{
+		width: 20.5em;
+		height: 29.5em;
+		margin: 2.5em auto;
+		background-color: white;
+		border-radius: 10px;
+	}
+
+	#imgcont{
+		width: 20.5em;
+		height: 10em;
+		border-radius: 10px 10px 0px 0px;
+	}
+
+	#h2{
+		text-align: center;
+	}
+
+	#div_txt{
+		width: 16.25em; 
+		margin: 0 auto;
+		text-align: center;
+		text-indent: 20px;
+	}
+
+	#divpre{
+		display: flex;
+		width: 17.5em;
+		height: 3.4375em;
+		margin: auto;
+		border-radius: 10px;
+		justify-content: center;
+		background-color: #c1c1c136;
+	}
+
+	#div_ico{
+		display: flex;
+		width: 50px;
+		height: 3.125em;
+		margin: 0;
+		align-items: center;
+	}
+
+	#div_pre{
+		display: flex;
+		width: 8.125em;
+		height: 3.125em;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#div_change{
+		display: flex;
+		align-items: center;
+	}
+
+	#div_but{
+		display: flex;
+		justify-content: center;
+		margin-top: 0.3125em;
+	}
+
+	#div_cancel{
+		display: flex;
+		justify-content: center;
+	}
+
+	#butpay{
+		color: white;
+		border: none;
+		width: 17.5em;
+		background-color: #382AE1;
+		border-radius: 10px;
+		box-shadow: 0px 7px 10px  rgba(0, 0, 0, 0.219);
+	}
+
+	#butcancel{
+		border: none;
+		background-color: transparent;
+	}
+
+	#butpay:hover{
+		cursor: pointer;
+	}
+
+	#butcancel:hover{
+		cursor: pointer;
+	}
+}
